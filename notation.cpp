@@ -16,7 +16,7 @@ void lineResult (std::stringstream* input)
     std::regex var("[a-zA-Z]+");
     std::regex eqv("=");
     std::regex prnt("!print!");
-    std::regex ex("exit");
+    std::regex ex("!exit!");
     std::smatch mtch;
 
     std::string leftVar;
